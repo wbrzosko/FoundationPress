@@ -30,8 +30,8 @@
 	<div class="top-header">
 		<div class="row">
 			<div class="small-12 medium-2 columns"><img src="/img/head.jpg" alt="Szkoła Jazdy Ekspert"  title="Szkoła Jazdy Ekspert" /></div>
-			<div class="small-12 medium-expand columns valign-bottom"><h1><a class="" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">NAUKA JAZDY WE WROCŁAWIU</a></h1></div>
-			<div class="small-12 medium-2 columns"><img src="/img/cena.png" /></div>
+			<div class="small-12 medium-expand columns align-self-bottom"><h1><a class="" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">NAUKA JAZDY WE WROCŁAWIU</a></h1></div>
+			<div class="small-12 medium-4 align-self-middle columns"><img src="/img/cena.png" /></div>
 		</div>
 	</div>	
 
