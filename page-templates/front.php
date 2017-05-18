@@ -6,15 +6,17 @@ get_header(); ?>
 
 <header id="front-hero" role="banner">
 	<div class="marketing">
-		<video id="vidplayer" width="" height="" autoplay="autoplay" loop="loop">
-			<source src="/img/banner.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-			<source src="/img/banner.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-			<source src="img/banner.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
-		</video>
+    <div class="flex-video">
+      <video id="vidplayer" width="950" height="257" autoplay="autoplay" loop="loop">
+        <source src="/img/banner.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+       <!-- <source src="/img/banner.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+        <source src="img/banner.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;"> -->
+      </video>
+    </div>
 	</div>
 </header>
 
-<div id="page" role="main">
+<div id="page-sidebar-left" role="main">
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
    <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">

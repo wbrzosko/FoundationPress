@@ -2,26 +2,24 @@
 #front-hero {
   .marketing {
     @include grid-row();
-    max-width: 55rem;
+    max-width: 950px;
   }
 
   @include breakpoint(small) {
-    background: url('../images/demo/hero-bg-foundation-6-small.svg') bottom center;
-    background-size: cover;
-    background-position: bottom;
-    padding: 0;
-    margin: 0 0 rem-calc(32);
+    background: #000;
+    margin: 0;
+    padding: 0 0 rem-calc(12);
     height: auto;
     position: relative;
     text-align: left;
+    border-bottom: 6px solid #b50505;
   }
 
   @include breakpoint(medium) {
-    background: url('../images/demo/hero-bg-foundation-6-large.svg') bottom center;
-    background-size: cover;
-    background-position: center;
-    height: 258px;
-    margin: 0 0 rem-calc(72);
+    background: #000;
+    margin: 0;
+    padding: 0 0 rem-calc(12);
+    box-shadow: 0 2px 12px -2px;
   }
 
   #watch {
