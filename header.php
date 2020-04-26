@@ -29,9 +29,9 @@
 
 	<div class="top-header">
 		<div class="row">
-			<div class="small-12 medium-2 columns"><img src="/img/head.jpg" alt="Szkoła Jazdy Ekspert"  title="Szkoła Jazdy Ekspert" /></div>
-			<div class="small-12 medium-expand columns valign-bottom"><h1><a class="" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">NAUKA JAZDY WE WROCŁAWIU</a></h1></div>
-			<div class="small-12 medium-2 columns"><img src="/img/cena.png" /></div>
+			<div class="small-12 medium-2 columns text-center"><img src="/img/head.png" alt="Szkoła Jazdy Ekspert"  title="Szkoła Jazdy Ekspert" /></div>
+			<div class="small-12 medium-expand columns align-self-bottom"></div>
+			<div class="small-12 medium-4 align-self-middle columns text-center"><img src="/img/cena.png" /></div>
 		</div>
 	</div>	
 
@@ -39,14 +39,14 @@
 		<div class="title-bar" data-responsive-toggle="mobile-menu">
 			<button class="menu-icon" type="button" data-toggle="mobile-menu"></button>
 			<div class="title-bar-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">NAUKA JAZDY WE WROCŁAWIU</a></h1>
 			</div>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="top-bar-left">
 				<ul class="menu">
-					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
+					<li class="home"><h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">NAUKA JAZDY WE WROCŁAWIU</a></h1></li>
 				</ul>
 			</div>
 			<div class="top-bar-right">

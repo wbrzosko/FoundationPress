@@ -70,9 +70,8 @@
 @include motion-ui-animations;
 
 /*
-  My custom styles:
-  Add your scss files below to structure your project styles
-*/
+  My custom styles: */
+@import "app";
 
 // Modules
 @import "modules/navigation";
@@ -86,6 +85,8 @@
 @import "components/featured-image";
 @import "components/dividers";
 @import "components/links";
+@import "components/callout";
+@import "components/flex-video";
 
 // Templates
 @import "templates/front";

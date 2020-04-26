@@ -1,0 +1,86 @@
+/* Navigation */
+
+.top-header {
+	background: #fff linear-gradient(#ffffff,#e1e1e1);
+}
+.top-bar {
+	
+}
+
+.site-header {
+    background: #000;
+    border-bottom: 1px solid #4e4e4e;    
+}
+
+/* Sidebar menus */
+
+.sidebar > .widget_nav_menu li {
+    background: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2px;
+}
+
+/* Content elements */
+
+.callout {
+	box-sizing: border-box;
+	background: #f9f9f9;
+	padding: 20px 20px 10px;
+	margin: 1rem 0 2rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .3);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .3);
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .3);
+	margin: 0 0 3rem 0;	
+	
+	h3 {
+		color: #b50505;
+		font-weight: 800;
+		border-bottom: 2px solid #ccc;
+	}
+}
+.flex-video {
+	margin-bottom: 0;
+	padding-bottom: 27%;
+}
+
+/* Background image in all pages and posts */
+
+section.container {
+	@include breakpoint(medium) {
+		background: url(../images/bg.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+/* Page with sidebar */
+#page-sidebar-left, #page {
+	background: #fff;
+	margin-top: 0 !important;
+	padding-top: 3em;
+}
+
+
+
+/* Blog posts */
+
+#single-post {
+	background: #fff;
+}
+
+/* Headers */
+
+h2 {
+	color: #999;
+	font-weight: 800;
+	font-size: 3rem;
+	text-align: center;
+	letter-spacing: 1px;
+}

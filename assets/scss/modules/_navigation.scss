@@ -50,6 +50,9 @@
 
 // Tablet and desktop menu
 .top-bar {
+    
+  @include grid-row();
+    
   .menu .home a {
     font-size: 1rem;
     color: #B9B9B9;
@@ -59,14 +62,15 @@
     height: 45px;
     line-height: 45px;
     color: #e6e6e6;
-    padding-top: 0;
-    padding-bottom: 0;
+    //padding-top: 0;
+    //padding-bottom: 0;
     font-weight: bold;
     font-size: 0.8rem;
     line-height: 1;
+    padding: 1rem;   
 
     &:hover:not(.button) {
-      background-color: #42525D;
+      background-color: #b50505;
     }
   }
 
@@ -95,3 +99,9 @@
 
 .nav-previous { float:left; }
 .nav-next { float:right; }
+
+
+.widget_nav_menu ul.menu {
+  @include menu-direction(vertical);
+}
+
